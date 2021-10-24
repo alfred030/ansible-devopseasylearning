@@ -1,0 +1,7 @@
+prod1          ansible_host=54.184.123.37  ################ubuntu apt
+prod2          ansible_host=34.212.98.245      ################ubuntu
+testing1      ansible_host=34.217.177.30           ################ubuntu
+
+
+
+

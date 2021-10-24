@@ -1,0 +1,11 @@
+- hosts: all
+  gather_facts: yes
+  become: yes
+  tasks:
+    - name: "jenkins"
+      include_role:
+        name: jenkins
+
+    # - name: "apache"
+    #   include_role:
+    #     name: apache
